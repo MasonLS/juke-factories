@@ -25,4 +25,6 @@ juke.controller('PlayerCtrl', function ($scope, $rootScope, PlayerFactory) {
     seek(evt.offsetX / evt.currentTarget.scrollWidth);
   };
 
+
+
 });
